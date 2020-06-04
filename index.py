@@ -12,22 +12,27 @@ saludo = Label(text="Bienvenidos",font=("Times New Roman",20)).place(x=150,y=5)
 
 lblname=Label(text="Nombre",font=("Arial",11)).place(x=70,y=30)
 entrada=StringVar()
+entrada.set("")
 txtnombre=Entry(root,textvariable=entrada).place(x=135,y=40)
 
 lblape=Label(text="Apellido",font=("Arial",11)).place(x=80,y=60)
 entrada=StringVar()
+entrada.set("")
 txtape=Entry(root,textvariable=entrada).place(x=135,y=70)
 
 lbldia=Label(text="Día ",font=("Arial",11)).place(x=80,y=90)
 entrada=StringVar()
+entrada.set("")
 txtdia=Entry(root,textvariable=entrada).place(x=135,y=100)
 
 lblmes=Label(text="Mes",font=("Arial",11)).place(x=80,y=120)
 entrada=StringVar()
+entrada.set("")
 txtmes=Entry(root,textvariable=entrada).place(x=135,y=130)
 
 lblaño=Label(text="Año",font=("Arial",11)).place(x=80,y=150)
 entrada=StringVar()
+entrada.set("")
 txtaño=Entry(root,textvariable=entrada).place(x=135,y=160)
 
 
