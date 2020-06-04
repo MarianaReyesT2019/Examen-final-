@@ -10,6 +10,28 @@ root.title("Examen Final Mariana Reyes ")
 
 saludo = Label(text="Bienvenidos",font=("Times New Roman",20)).place(x=150,y=5)
 
+lblname=Label(text="Nombre",font=("Arial",11)).place(x=70,y=30)
+entrada=StringVar()
+txtnombre=Entry(root,textvariable=entrada).place(x=135,y=40)
+
+lblape=Label(text="Apellido",font=("Agency FB",14)).place(x=80,y=60)
+entrada=StringVar()
+txtape=Entry(root,textvariable=entrada).place(x=135,y=70)
+
+lbldia=Label(text="Día ",font=("Agency FB",14)).place(x=80,y=90)
+entrada=StringVar()
+txtdia=Entry(root,textvariable=entrada).place(x=135,y=100)
+
+lblmes=Label(text="Mes",font=("Agency FB",14)).place(x=80,y=120)
+entrada=StringVar()
+txtmes=Entry(root,textvariable=entrada).place(x=135,y=130)
+
+lblaño=Label(text="Año",font=("Agency FB",14)).place(x=80,y=150)
+entrada=StringVar()
+txtaño=Entry(root,textvariable=entrada).place(x=135,y=160)
+
+
+
 
 
 
