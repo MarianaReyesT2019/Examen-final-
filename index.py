@@ -31,6 +31,13 @@ entrada=StringVar()
 txtaño=Entry(root,textvariable=entrada).place(x=135,y=160)
 
 
+btnFuncion1 = Button(root, text= "FUNCION 1",font=("Agency FB",10),width=10).place(x=74,y=190)
+btnFuncion1 = Button(root, text= "FUNCION 2",font=("Agency FB",10),width=10).place(x=126,y=190)
+btnFuncion1 = Button(root, text= "FUNCION 3",font=("Agency FB",10),width=10).place(x=180,y=190)
+btnFuncion1 = Button(root, text= "FUNCION 4",font=("Agency FB",10),width=10).place(x=235,y=190)
+btnFuncion1 = Button(root, text= "FUNCION 5",font=("Agency FB",10),width=10).place(x=290,y=190)
+
+
 
 
 
